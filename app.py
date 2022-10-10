@@ -24,7 +24,20 @@ SHOW_DIALOG_str = str(SHOW_DIALOG_bool).lower()
 def you_got_me():
     #target = os.environ.get('TARGET', 'World')
     #return 'Hello {}!\n'.format(target)
-    return 'Hello world, is it the start of the end????????'
+    return """Hello world,
+
+    is
+    it
+    the
+    end
+    of
+    the
+    World
+    as
+    we
+    know
+    it????????
+    https://www.youtube.com/watch?v=8OyBtMPqpNY """
 
 #if we receive a message POST from slack
 
